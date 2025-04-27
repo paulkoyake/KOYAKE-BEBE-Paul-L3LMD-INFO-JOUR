@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	
+</head>
+<body>
+	<form onsubmit= "return verifierChamps()" action="Authentification.html" >
+		<h2 style="color:red ";>Inscription</h2>
+	<p>Pour bénéficier d'avantage, veuillez vous inscrire</p>
+	<input type="text" id="nom" placeholder="Ecrivez votre nom" name=""><br><br>
+	<input type="text" id="post-nom" placeholder="Ecrivez votre post-nom" name=""><br><br>
+	<input type="text" id="prenom" placeholder="Ecrivez votre prénom" name=""><br>
+			<select>
+					<option>M</option>
+					<option>F</option>
+				</select><br>
+				<input type="date" id="naissance" placeholder="Entrer votre date de naissance" name=""><br><br>
+				<select>	
+						<option> Célibataire</option>
+						<option> Marié</option>
+						<option> Divorcé</option>
+					</select><br><br>
+				<input type="email" id="email" placeholder="Entrer votre email" name=""><br><br>
+				<input type="password" id="password" placeholder="Ajouter votre mot de passe" name=""><br><br>
+				<p>Si vous avez déjà un compte,<a href="authentification.html"> Authentifiez-vous</a></p>
+					<input style="color: white;" type="submit" value="S'incrire">
+				</form>
+				<script>
+					function verifierChamps(){
+						var nom= document.getElementsById("nom").value
+						var post-nom= document.getElementsById("post-nom").value
+						var prenom= document.getElementsById("prenom").value
+						var naissance= document.getElementsById("naissance").value
+						var email= document.getElementsById("email").value
+
+						if(nom==="" || post-nom==="" || prenom==="" || naissance==="" || email===""){
+							alert("Veuillez remplir tous les champs!");
+							return false; // Empêche l'envoi
+						}
+						return true;// Tous les champs sont remplis, on envoie
+					}
+				</script>
+
+</body>
+</html>

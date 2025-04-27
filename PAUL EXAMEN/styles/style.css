@@ -1,0 +1,114 @@
+*{
+			margin: 0px;
+		}
+		body{
+			background: #ccc;
+			padding-right: 90px;
+		}
+		form{
+			background: white;
+			width: 30%;
+			margin-left: 20%;
+			margin-top:3%;
+			padding: 20px;
+			padding-right: 20px;
+		}
+		h3{
+			color: red;
+			font-size: 20px;
+			font-family: sans-serif;
+			text-align: center;
+			margin-bottom: 0%;
+			border-radius: 5px solid white;
+
+		}
+		input[type=email],select{
+			width: 95%;
+			margin-bottom: 3%;
+			padding: 8px;
+		}
+		input[type=password]{
+			width: 95%;
+			margin-bottom: 3%;
+			padding: 8px;
+		}
+		input[type=text]{
+			width: 95%;
+			margin-bottom: 3%;
+			padding: 8px;
+		}
+		input[type=submit]{
+			width: 100%;
+			margin-bottom: 3%;
+			padding: 8px;
+			background: blue;
+		}
+		
+		img{
+			width: 300px;
+			margin-bottom: 40px;
+			margin-right: 40px;
+			border-radius: 10px;
+		}
+		img:hover{
+			width: ;
+		}
+		body{
+			margin-left: 20%;
+		}
+
+		p{
+			font-size: 20px;
+			margin-bottom: 3px;
+			margin-left: 3px;
+			text-align: justify;
+
+		}
+		li{
+			font-size: 18px;
+			text-align: justify;
+		}
+	h2{
+			color: red;
+			font-size: 40px;
+			font-family: times new roman;
+			text-align: left;
+			margin-bottom: 2%;
+			margin-left: 8%;
+			padding-top: 10px;
+			border-radius: 5px;
+			border: white;
+}
+table{
+
+	background: white;
+	padding: 30px;
+	margin: 30px;
+}
+button{
+	margin-left:2x;
+	background: skyblue;
+	color: white;
+	margin-right: 30px;
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+button:hover{
+	background: blue;
+}
+button a:hover{
+	color: white;
+	text-decoration: none;
+}
+video{
+	width: 500px;
+}
+a:hover {
+color: red;
+}
+input[type=submit]:hover{
+	background: red;
+	color: white;
+}
